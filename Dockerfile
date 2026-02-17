@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM public.ecr.aws/nginx/nginx:alpine
 
 # remove default nginx site
 RUN rm -rf /usr/share/nginx/html/*
