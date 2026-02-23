@@ -2,6 +2,7 @@ version: 0.2
 
 env:
   variables:
+    ACCOUNT_ID: 460003211837
     AWS_DEFAULT_REGION: ap-south-1
     IMAGE_REPO_NAME: brain-tasks-repo
     IMAGE_TAG: latest
